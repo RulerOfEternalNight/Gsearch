@@ -102,5 +102,7 @@ FotoFind successfully retrieves images based on:
 - **Search Algorithm:** Scikit-learn (TF-IDF, Cosine Similarity)
 
 ---
+
 FotoFind provides a powerful and scalable solution for intelligent image retrieval, leveraging cutting-edge computer vision techniques to enhance searchability and metadata enrichment.
 
+-JD
