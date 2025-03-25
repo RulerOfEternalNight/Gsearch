@@ -6,9 +6,9 @@
 - [System Architecture](#system-architecture)
 - [Models and Methodology](#models-and-methodology)
 - [Implementation Details](#implementation-details)
+- [Development Environment]()
 - [Results](#results)
 - [Future Work](#future-work)
-- [Team Contributions](#team-contributions)
 - [References](#references)
 
 ## Introduction
@@ -51,12 +51,12 @@ FotoFind follows a modular, scalable architecture comprising:
 
 ![](/res/fotofind_page-0005.jpg)
 
-### Development Environment
+### Development Environment and Project info
 - **Backend:** Python (Flask, PyTorch, Transformers, Scikit-learn, MySQL Connector)
 - **Frontend:** HTML, CSS (Bootstrap)
 - **Database:** MySQL
 
-### Project Structure
+#### Project Structure
 ```
 FotoFind/
 ├── app.py                # Flask application
@@ -69,14 +69,13 @@ FotoFind/
 ├── requirements.txt      # Dependencies
 ```
 
-### Usage
-
+#### Usage
+```
 Just simply clone the repo and run the 'app.py'
 Now you can access the application in your favourite browser. -> localhost:5000
 
 !! Ensure that you have installed all required packages. see: requirements.txt (NA yet) 
-
-
+```
 
 ### Workflow
 1. **Upload:** Users upload images via the web interface.
