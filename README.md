@@ -75,6 +75,16 @@ FotoFind/
 ├── images/               # Directory for uploaded images
 ├── requirements.txt      # Dependencies
 ```
+
+### Usage
+
+Just simply clone the repo and run the 'app.py'
+Now you can access the application in your favourite browser. -> localhost:5000
+
+!! Ensure that you have installed all required packages. see: requirements.txt (NA yet) 
+
+
+
 ### Workflow
 1. **Upload:** Users upload images via the web interface.
 2. **Feature Extraction:** Object detection, captioning, and OCR processing.
