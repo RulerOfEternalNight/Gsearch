@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <nav class="navbar navbar-dark bg-dark">
-                    <a class="navbar-brand">Navbar</a>
+                    <a class="navbar-brand">FotoFind</a>
                 </nav>                  
             </div>
             <div class="col-md-3">
@@ -27,18 +27,21 @@
                                 <li><a href=""><i class="fa fa-folder"></i> /RootofImages/ 
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </a></li>
-                                <li><a href="">Total no. of imgs: {{cnt_res[0]+cnt_res[1]+cnt_res[2]}}
+                                <li><a href="">Total no. of imgs: {{ (cnt_res[0] or 0) + (cnt_res[1] or 0) + (cnt_res[2] or 0) + (cnt_res[3] or 0) }}
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </a></li>
-                                <li><a href="">No. of PNG imgs: {{cnt_res[0]}}
+                                <li><a href="">No. of PNG imgs: {{ cnt_res[0] or 0 }}
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </a></li>
-                                <li><a href="">No. of JPG imgs: {{cnt_res[1]}}
+                                <li><a href="">No. of JPG imgs: {{ cnt_res[1] or 0 }}
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </a></li>
-                                <li><a href="">No. of JPEG imgs: {{cnt_res[2]}}
+                                <li><a href="">No. of JPEG imgs: {{ cnt_res[2] or 0 }}
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </a></li>
+                                <li><a href="">No. of HEIC imgs: {{ cnt_res[3] or 0 }}
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </a></li>                                
                             </ul>
                             <div class="clearfix"></div>
                         </div>
