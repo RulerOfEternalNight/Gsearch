@@ -1,12 +1,5 @@
 # FotoFind: An Advanced Image Retrieval System
 
-## CS415 Fall 24 Project
-**Team Members:**
-- Jegadit Sakthi Saravanan (jsakt)
-- Aryan Shetty (ashet31)
-- Abhishek Basu (abasu9)
-- **Department of Computer Science, University of Illinois at Chicago (UIC)**
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
