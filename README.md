@@ -77,18 +77,19 @@ Now you can access the application in your favourite browser. -> localhost:5000
 !! Ensure that you have installed all required packages. see: requirements.txt (NA yet) 
 ```
 
-### Workflow
-1. **Upload:** Users upload images via the web interface.
-2. **Feature Extraction:** Object detection, captioning, and OCR processing.
-3. **Metadata Storage:** Extracted data is stored in MySQL.
-4. **Search Query:** User searches are matched with stored metadata.
-5. **Image Retrieval:** Results are ranked based on relevance and displayed.
 
 ## Results
 FotoFind successfully retrieves images based on:
 - Object detection (e.g., "stop sign" retrieves relevant traffic images).
 - Captioning (e.g., "bus to Navy Pier" finds transportation-related images).
 - OCR (e.g., "train to Nagoya" matches embedded text in images).
+
+#### Workflow
+1. **Upload:** Users upload images via the web interface.
+2. **Feature Extraction:** Object detection, captioning, and OCR processing.
+3. **Metadata Storage:** Extracted data is stored in MySQL.
+4. **Search Query:** User searches are matched with stored metadata.
+5. **Image Retrieval:** Results are ranked based on relevance and displayed.
 
 ## Future Work
 - **Advanced Indexing:** Integrating FAISS/Elasticsearch for scalable search.
