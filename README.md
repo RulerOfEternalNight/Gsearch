@@ -6,7 +6,6 @@
 - [System Architecture](#system-architecture)
 - [Models and Methodology](#models-and-methodology)
 - [Implementation Details](#implementation-details)
-- [Development Environment](#development-environment-and-project-info)
 - [Results](#results)
 - [Future Work](#future-work)
 - [References](#references)
@@ -56,7 +55,7 @@ FotoFind follows a modular, scalable architecture comprising:
 - **Frontend:** HTML, CSS (Bootstrap)
 - **Database:** MySQL
 
-#### Project Structure
+### Project Structure
 ```
 FotoFind/
 ├── app.py                # Flask application
@@ -69,7 +68,7 @@ FotoFind/
 ├── requirements.txt      # Dependencies
 ```
 
-#### Usage
+### Usage
 ```
 Just simply clone the repo and run the 'app.py'
 Now you can access the application in your favourite browser. -> localhost:5000
